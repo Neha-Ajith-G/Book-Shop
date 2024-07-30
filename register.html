@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Shop</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body bgcolor="LightCyan">
+        <h1 align="center">BOOK SHOP</h1>
+        
+        <div class="nav" id="div1">
+                <span id="navleft"><a class="nav" id="home" href="home.html">HOME</a></span>
+                <span id="navright">
+                    <a class="nav"  id="books" href="books.html">Shop</a>
+                    <a class="nav" id="about" href="about.html">About us</a>
+                    <a class="nav" id="reg" href="register.html">Register</a>
+                </span>
+        </div>
+
+        <div id="div2"><h2 align="center">Register Here</h2></div>
+
+        <div class="regForm" id="div3">
+            <table align="center">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="fname" placeholder="First Name"></td>
+                    <td><input type="text" id="lname" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" id="mail" placeholder=" Enter your email"></td>
+                </tr>
+                <tr>
+                    <td>Plan</td>
+                    <td>
+                        <select name="plans" id="plans">
+                              <optgroup label="Plans">
+                                <option value="basic">Basic</option>
+                                <option value="premium">Premium</option>
+                              </optgroup>
+
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Photo</td>
+                    <td><input type="file" alt="Browse..."></td>
+                </tr>
+                
+            </table>
+        </div>
+
+
+    </body>
+</html>

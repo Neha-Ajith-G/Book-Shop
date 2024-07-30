@@ -1,0 +1,45 @@
+.nav{
+    position: relative;
+    background-color:rgb(23, 53, 53);
+    border-radius: 5px;
+    height: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:azure;
+    text-decoration: none;
+    
+}
+
+#navleft{
+    float: left;
+    margin-top: 15px;
+    margin-left:15px;
+}
+#navright{
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#home{
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.nav #home,#books,#about,#reg{
+    background-color: rgba(200, 229, 248, 0.171);
+    margin-right: 10px;
+}
+
+#home:hover,#books:hover,#about:hover,#reg:hover{
+    background-color: aliceblue;
+    color:darkslategray;
+}
+
+#marquee1{
+    margin-block-start: 25px;
+    background-color:darkseagreen;
+    width: 100%;
+    color: crimson;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
