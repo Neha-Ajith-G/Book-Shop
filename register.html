@@ -6,51 +6,84 @@
     </head>
 
     <body bgcolor="LightCyan">
+        
+        <br>
+
         <h1 align="center">BOOK SHOP</h1>
         
         <div class="nav" id="div1">
-                <span id="navleft"><a class="nav" id="home" href="home.html">HOME</a></span>
-                <span id="navright">
-                    <a class="nav"  id="books" href="books.html">Shop</a>
-                    <a class="nav" id="about" href="about.html">About us</a>
-                    <a class="nav" id="reg" href="register.html">Register</a>
-                </span>
+            <span id="navleft"><a class="nav" id="home" href="home.html">HOME</a></span>
+            <span id="navright">
+                <a class="nav"  id="books" href="books.html">Shop</a>
+                <a class="nav" id="about" href="about.html">About us</a>
+                <a class="nav" id="reg" href="register.html">Register</a>
+            </span>
         </div>
+        
 
         <div id="div2"><h2 align="center">Register Here</h2></div>
+        
+        
+        <hr>
+        <div class="regForm" id="div3" align="center">
+            <div class="blur" align="center">
+                <table id="regtable" align="center">
+                    <th> </th>
+                    <th> </th>
+                    <tr>
+                        <td>Name:   </td>
+                        <td><input type="text" id="fname" placeholder="First Name"></td>
+                        <td><input type="text" id="lname" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:  </td>
+                        <td><input type="email" id="mail" placeholder=" Enter your email"></td>
+                    </tr>
+                    <tr>
+                        <td>Plan:   </td>
+                        <td>
+                            <select name="plans" id="plans">
+                                <optgroup label="Plans">
+                                    <option value="basic">Basic</option>
+                                    <option value="premium">Premium</option>
+                                </optgroup>
 
-        <div class="regForm" id="div3">
-            <table align="center">
-                <tr>
-                    <td>Name</td>
-                    <td><input type="text" id="fname" placeholder="First Name"></td>
-                    <td><input type="text" id="lname" placeholder="Last Name"></td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td><input type="email" id="mail" placeholder=" Enter your email"></td>
-                </tr>
-                <tr>
-                    <td>Plan</td>
-                    <td>
-                        <select name="plans" id="plans">
-                              <optgroup label="Plans">
-                                <option value="basic">Basic</option>
-                                <option value="premium">Premium</option>
-                              </optgroup>
-
-                        </select> 
-                    </td>
-                </tr>
-                <tr>
-                    <td>Photo</td>
-                    <td><input type="file" alt="Browse..."></td>
-                </tr>
-                <tr>
-                    <td>Address</td>
-                    <td><input type="text" placeholder="Address1"></td>
-                </tr>
-            </table>
+                            </select> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Photo:  </td>
+                        <td><input type="file" alt="Browse..."></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Address:    
+                        </td>
+                        <td><input type="text" placeholder="Address1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Address2"></td>
+                    </tr> 
+                    <tr>
+                        <td><input type="text" placeholder="City"></td>
+                        <td><input type="text" placeholder="State"></td>
+                        <td><input type="text" placeholder="Zipcode"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone No:   </td>
+                        <td><input type="number" id="phoneloc" placeholder="91-" pattern="[0-9]{2}" required /></td>
+                        <td><input type="tel" id="phoneno" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Gender: </td>
+                        <td>
+                            <input type="radio" class="Gender" id="gone" name="Gender" value="Male"><label for="Male">Male</label>
+                        </td>
+                        <td><input type="radio" class="Gender" id="gtwo" name="Gender" value="Female"><label for="Female">Female</label></td>
+                        <td><input type="radio" class="Gender" id="gthr" name="Gender" value="Others"><label for="Others">Others</label></td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
 
